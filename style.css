@@ -1,0 +1,32 @@
+body {
+    background-color: #DFE2D6;
+    color: #232F28;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    overflow-x: hidden;
+}
+
+.font-serif-title {
+    font-family: 'Playfair Display', Georgia, serif;
+}
+
+/* Glassmorphism & inputs */
+#toast {
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.custom-input::placeholder {
+    color: rgba(255, 255, 255, 0.45);
+}
+
+/* Organic blob / doodle background shapes matching reference cards */
+.card-bg-shape-1 {
+    border-radius: 65% 35% 55% 45% / 50% 60% 40% 50%;
+}
+.card-bg-shape-2 {
+    border-radius: 40% 60% 60% 40% / 55% 45% 55% 45%;
+}
+
+/* SVG coffee foliage overlay styling */
+.foliage-leaf {
+    filter: drop-shadow(2px 6px 12px rgba(0,0,0,0.15));
+}
